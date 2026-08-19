@@ -17,7 +17,7 @@ def plot_gantt(sol: Schedule, inst, title: str = "Berth schedule", ax=None):
     if ax is None:
         _, ax = plt.subplots(figsize=(10, 4))
     n_berths = max(inst.berths, key=lambda b: b.id).id + 1 if inst.berths else 1
-    cmap = plt.cm.get_cmap("tab20", max(sol.n, 1))
+    cmap = matplotlib.colormaps.get_cmap("tab20")
     vmap = {v.id: v for v in inst.vessels}
     for i in range(sol.n):
         v = vmap[sol.vessel_id[i]]
