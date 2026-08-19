@@ -1,6 +1,6 @@
 """berth-scheduler: berth allocation + quay-crane scheduling."""
 
-from . import baseline, ga, instances, milp, schedule
+from . import baseline, benchmarks, ga, instances, milp, schedule, visualize
 
 __version__ = "0.1.0"
-__all__ = ["baseline", "ga", "instances", "milp", "schedule"]
+__all__ = ["baseline", "benchmarks", "ga", "instances", "milp", "schedule", "visualize"]
