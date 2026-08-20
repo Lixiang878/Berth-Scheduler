@@ -1,5 +1,13 @@
 # Berth-Scheduler
 
+> **⚠️ 已归档（二合一）**：本仓库已并入 [SmartPort-MultiAgent](https://github.com/Lixiang878/smartport-multiagent)——
+> HiGHS 精确解（`bap_milp_highs`）、文献基准算例（`utils/benchmarks`）与灵敏度分析（`utils/sensitivity`）
+> 均在 SmartPort 中继续维护。本仓库仅作历史留档，不再更新。
+>
+> **⚠️ ARCHIVED — MERGED INTO [SmartPort-MultiAgent](https://github.com/Lixiang878/smartport-multiagent).**
+> The HiGHS exact solver, literature benchmarks and sensitivity analysis now live there.
+> Kept for history; no further updates.
+
 [![CI](https://github.com/Lixiang878/Berth-Scheduler/actions/workflows/ci.yml/badge.svg)](https://github.com/Lixiang878/Berth-Scheduler/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-yellow.svg)
